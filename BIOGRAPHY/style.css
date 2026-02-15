@@ -1,76 +1,86 @@
 body {
-  background-color: #FAF3E1;
+    background:
+        linear-gradient(
+            rgba(34, 34, 34, 0.85),
+            rgba(34, 34, 34, 0.85)
+        );
+    background-size: cover;
+    background-position: center 40%;
+    background-color: #1c1c1c;
 }
 
 h1 {
-  color: #222831;
-  text-align: center;
-  text-decoration: underline;
-  text-decoration-color: #BF092F;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 24px;
+    font-size: 48px;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    color: #C4C4C4;
 }
 
 h2 {
-  color: #222831;
-  font-size: 42px;
-  text-align: center;
-  
-  text-decoration-color: #BF092F;
-  font-family: gerogia, serif;
-  font-size: 24px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #000000;
+    text-align: center;
 }
 
-
-h3 {
-  color: #222831;
-  font-size: 42px;
-  text-align: center;
-  
-  text-decoration-color: #BF092F;
-  font-family: gerogia, serif;
-  font-size: 24px;
+.autobiographycontent {
+    border: 2px solid #ab2626;
+    box-shadow: 0px 4px 10px rgba(5, 5, 34, 1);
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 900px;    
+    background-color: rgba(255, 255, 255, 0.5);
+    
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 17px;
+    text-align: left;
+    color: #000000;
 }
 
-.autobiographycontent{
-  border: 2px solid black;
-  padding: 30px;
-  text-align: center;
-  font-size: 27px;
-  
-  background-color: #F5E7C6;
-  width: 60%;
-  margin: 0 auto;
-  box-shadow: 2px 5px 12px rgba(213, 12, 21, 0.3);
-  font-family: tahoma, serif;
-  font-size: 16px;
-  text-align: justify;
-  text-indent: 40px;
+.autobiographycontent p {
+    text-indent: 50px;
 }
-
 
 .btn-container {
-    text-align: center;
-    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 20px;
 }
 
 .styled-btn {
-    display: inline-block;
     text-decoration: none;
-    font-family: tahoma, serif;
-    font-size: 14px;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px; 
     font-weight: bold;
-    background-color: #BF092F; 
-    color: #FAF3E1;
-    padding: 10px 25px;
-    border: 2px solid #222831;
+    padding: 10px 30px;
+    background-color: #ab2626; 
+    color: #C4C4C4; 
+    border: 2px solid #ab2626;
     border-radius: 5px;
     transition: all 0.3s ease;
-    box-shadow: 2px 3px 5px rgba(0,0,0,0.2);
+    display: inline-block;
 }
 
 .styled-btn:hover {
-    background-color: #F5E7C6;
-    color: #BF092F;
+    background-color: transparent;
+    color: #ab2626; 
     cursor: pointer;
+}
+
+a {
+    font-family: 'Segoe UI', sans-serif;
+    color: #C4C4C4;
+}
+
+.blog-image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px auto 0 auto;
+    max-width: 50%;
+    height: auto;     
+    border-radius: 10px;   
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.5);
 }
