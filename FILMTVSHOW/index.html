@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Films</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+    <nav class="btn-container">
+        <a href="../index.html" class="styled-btn">HOME</a>
+        <a href="../GALLERY/index.html" class="styled-btn">Gallery</a>
+        <a href="../MUSIC/index.html" class="styled-btn">Music</a>
+        <a href="../FILMMOVIE/index.html" class="styled-btn">Films & Movies</a>
+        <a href="../BIOGRAPHY/index.html" class="styled-btn">Biography</a>
+        <a href="../BLOG_STORY/index.html" class="styled-btn">Blog 1</a>
+        <a href="../BLOG_STORY_PERSO/index.html" class="styled-btn">Blog 2</a>
+        <a href="../BLOG_FUTURECAREER/index.html" class="styled-btn">Blog 3</a>
+    </nav>
+
+    <div class="poster-carousel-container">
+        <button class="nav-btn left" onclick="document.getElementById('poster-slider').scrollBy({left: -300, behavior: 'smooth'})">❮</button>
+        
+        <div class="poster-slider" id="poster-slider">
+            <div class="poster-item">
+                <img src="images/bigbang.jpg" alt="The Big Bang Theory">
+            </div>
+            <div class="poster-item">
+                <img src="images/youngsheldon.jpg" alt="Young Sheldon">
+            </div>
+            <div class="poster-item">
+                <img src="images/brooklyn99.jpg" alt="Brooklyn Nine-Nine">
+            </div>
+            <div class="poster-item">
+                <img src="images/theoffice.jpg" alt="The Office">
+            </div>
+            <div class="poster-item">
+                <img src="images/dexter.jpg" alt="Dexter">
+            </div>
+            
+        </div>
+
+        <button class="nav-btn right" onclick="document.getElementById('poster-slider').scrollBy({left: 300, behavior: 'smooth'})">❯</button>
+    </div>
+
+<header>
+        <h1>TV Series Collection</h1>
+        <p class="subtitle-gray">My Favorite Shows</p>
+    </header>
+
+    <header>
+        <p class="genre-header">Comedy & Sitcoms</p>
+    </header>
+
+    <div class="ost-container">
+        <div class="video-card-left">
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/WBb3fojgW0Q" title="The Big Bang Theory" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <h3 class="movie-title-red">The Big Bang Theory</h3>
+            <p class="movie-meta">CBS | 12 Seasons | Sitcom</p>
+            <p class="movie-description">Mensa-level physicists Leonard and Sheldon understand everything from the quantum vacuum to dark matter, but they are completely lost when it comes to people.</p>
+        </div>
+
+        <div class="video-card-right">
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/FStMMcj-RiA" title="Young Sheldon" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <h3 class="movie-title-red">Young Sheldon</h3>
+            <p class="movie-meta">CBS | 7 Seasons | Coming-of-Age Comedy</p>
+            <p class="movie-description">A prequel to The Big Bang Theory, following 9-year-old Sheldon Cooper as he skips four grades to start high school alongside his less-intellectual older brother.</p>
+        </div>
+
+        <div class="video-card-left">
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/l94tBy1XwbY" title="Brooklyn Nine-Nine" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <h3 class="movie-title-red">Brooklyn Nine-Nine</h3>
+            <p class="movie-meta">NBC | 8 Seasons | Police Comedy</p>
+            <p class="movie-description">Detective Jake Peralta is a great cop, but he's never had to follow the rules too closely. That changes when a new, strict captain joins the 99th precinct.</p>
+        </div>
+
+        <div class="video-card-right">
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/iSlmaydj3tc" title="The Office" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <h3 class="movie-title-red">The Office (US)</h3>
+            <p class="movie-meta">NBC | 9 Seasons | Mockumentary Sitcom</p>
+            <p class="movie-description">A documentary crew follows the daily lives of office employees at the Dunder Mifflin Paper Company, led by their deluded but well-meaning manager, Michael Scott.</p>
+        </div>
+    </div>
+
+    <header>
+        <p class="genre-header">Crime & Suspense</p>
+    </header>
+
+    <div class="ost-container">
+        <div class="video-card-left">
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/oUWtAYNQG5c" title="Dexter" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <h3 class="movie-title-red">Dexter</h3>
+            <p class="movie-meta">Showtime | 8 Seasons | Crime Drama</p>
+            <p class="movie-description">He's smart, he's good looking, and he's got a great sense of humor. He's Dexter Morgan, everyone's favorite serial killer who lives by a strict code.</p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p class="footer-text">&copy; 2026 Jacob Rex A. Arroyo - ITAD. All rights reserved.</p>
+    </footer>
+
+    <div class="btn-container">
+        <a href="#top" class="styled-btn">BACK TO TOP</a>
+    </div>
+</body>
+</html>
+</html>

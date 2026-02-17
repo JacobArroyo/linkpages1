@@ -1,0 +1,108 @@
+body {
+    background:
+        linear-gradient(
+            rgba(34, 34, 34, 0.85),
+            rgba(34, 34, 34, 0.85)
+        );
+    background-size: cover;
+    background-position: center 40%;
+    background-color: #1c1c1c;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    color: #C4C4C4;
+}
+
+/* Matching the blog container style */
+.ost-container {
+    border: 2px solid #ab2626;
+    box-shadow: 0px 4px 10px rgba(5, 5, 34, 1);
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 900px;    
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: 'Segoe UI', sans-serif;
+
+    /* Layout to put boxes side-by-side */
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap; /* Important for mobile screens */
+}
+
+/* Update your existing container to handle the box alignment better */
+.ost-container {
+    border: 2px solid #ab2626;
+    box-shadow: 0px 4px 10px rgba(5, 5, 34, 1);
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 900px;    
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Updated card style */
+.audio-card-left, .audio-card-right {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid #ab2626;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1;
+    min-width: 350px; /* Slightly wider to accommodate the image + text */
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+    display: flex;
+    flex-direction: column; /* Keeps items stacked vertically inside the box */
+}
+
+/* --- THE IMAGE BOX --- */
+.album-art {
+    width: 100%;        /* Fills the width of the box */
+    height: 200px;       /* Fixed height for every single image */
+    object-fit: cover;   /* Smart crop: fills the box without stretching */
+    object-position: center; /* Ensures the middle of the image is shown */
+    border-radius: 4px;
+    border: 1px solid #ab2626;
+    margin-bottom: 15px; /* Space between image and title */
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.styled-btn {
+    text-decoration: none;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px; 
+    font-weight: bold;
+    padding: 10px 30px;
+    background-color: #ab2626; 
+    color: #C4C4C4; 
+    border: 2px solid #ab2626;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.styled-btn:hover {
+    background-color: transparent;
+    color: #ab2626; 
+    cursor: pointer;
+}
+
+/* Style for the audio player to match the dark theme */
+audio {
+    filter: sepia(20%) saturate(70%) grayscale(1) contrast(90%) invert(12%);
+    margin-top: 10px;
+}
