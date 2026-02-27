@@ -1,0 +1,138 @@
+body {
+    background:
+        linear-gradient(
+            rgba(34, 34, 34, 0.85),
+            rgba(34, 34, 34, 0.85)
+        );
+    background-size: cover;
+    background-position: center 40%;
+    background-color: #1c1c1c;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: #C4C4C4;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    color: #C4C4C4;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Segoe UI', sans-serif;
+    color: #ab2626;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 28px;
+    transition: all 0.3s ease;
+}
+
+.blogcontainer {
+    border: 2px solid #ab2626;
+    box-shadow: 0px 4px 10px rgba(5, 5, 34, 1);
+    padding: 30px;
+    margin: auto;
+    max-width: 900px;    
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+}
+
+.blogcontent {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 17px;
+    text-align: left;
+    color: #000000;
+    line-height: 1.6;
+}
+
+.blogcontent p {
+    margin-bottom: 15px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.blog-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 250px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.listcontainer {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1100px;
+    margin: 30px auto;
+    flex-wrap: wrap;
+}
+
+.leftcontainer, .rightcontainer {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 17px;
+    color: #C4C4C4;
+    text-shadow:
+        -1px -1px 0 #000000,
+         1px -1px 0 #000000,
+        -1px  1px 0 #000000,
+         1px  1px 0 #000000;
+    flex: 1;
+    min-width: 300px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.styled-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px; 
+    font-weight: bold;
+    padding: 10px 30px;
+    background-color: #ab2626;
+    color: #ffffff;
+    border: 2px solid #ab2626;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.styled-btn:hover {
+    background-color: transparent;
+    color: #ab2626;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 14px;
+    color: #C4C4C4;
+}

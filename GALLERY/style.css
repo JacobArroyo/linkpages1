@@ -85,13 +85,11 @@ header {
 
 .gallery-section {
     display: grid;
-    /* Changed 1fr to auto so columns only take up the space they need */
     grid-template-columns: repeat(auto-fit, minmax(200px, 450px)); 
-    /* This centers the group of images within the 90% width */
     justify-content: center; 
     gap: 20px;                             
     width: 90%;
-    margin: 0 auto 50px auto; /* Keeps the section itself centered on the page */
+    margin: 0 auto 50px auto; 
 }
 
 .gallery-section img {
